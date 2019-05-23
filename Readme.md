@@ -21,7 +21,7 @@
 10. Copy contents of index.js from 'https://github.com/ualberta-eclass/spark2019/blob/master/lambda/index.js' and paste into inline editor (index.js)
 11. Click "Select a test event" drop-down, select "Configure test event"
 12. Select create new test event with Event name "test"
-13. Paste contents of testevent.json into editor pane.
+13. Paste contents of 'https://github.com/ualberta-eclass/spark2019/blob/master/lambda/testevent.json' into editor pane.
 14. Click Create
 15. Click Test
 16. Click Details expansion arrow under Execution result
