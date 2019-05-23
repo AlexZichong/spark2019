@@ -45,7 +45,7 @@ Click Services Drop-down
 14. For "Lambda Function" type spark2019-yourccid
 15. Leave all other settings default
 16. Save
-17. When prompted for "Add Permission to Lambda Function" select "Ok"
+17. When prompted for "Add Permission to Lambda Function", click "Ok"
 18. Click "Integration Request"
 19. Expand "Mapping Templates"
 20. Select "When there are no templates defined"
