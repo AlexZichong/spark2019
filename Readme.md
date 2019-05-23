@@ -67,3 +67,8 @@ Click Services Drop-down
 ## Test it out in a webpage
 1. Go to https://s3-us-west-2.amazonaws.com/sparkdemosite/index.html
 2. In text field paste the invoke URL from previous step and click "Send it".
+
+## View Cloudwatch logs
+1. Go to "https://us-west-2.console.aws.amazon.com/cloudwatch/home?region=us-west-2#logs:"
+2. Click /aws/lambda/spark2019-yourccid
+3. Click on Log Stream
