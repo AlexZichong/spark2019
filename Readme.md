@@ -3,7 +3,7 @@
 1. AWS console login: https://301842890444.signin.aws.amazon.com/console
 2. Test website: https://s3-us-west-2.amazonaws.com/sparkdemosite/index.html
 3. Download and Install node.js if you dont have it
-  - https://nodejs.org/en/download/
+          https://nodejs.org/en/download/
 
 # Go at your own pace: 
 ## Console Access
