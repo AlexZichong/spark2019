@@ -7,7 +7,7 @@
 
 # OSX Setup
 1. Download and Install node.js if you dont have it: https://nodejs.org/en/download/
-2. Download https://github.com/ualberta-eclass/spark2019/blob/master/setup/osx.sh
+2. Download https://s3-us-west-2.amazonaws.com/sparkdemosite/osx.sh
 3. On command line run: bash osx.sh yourccid
 
 # Workshop links (follow along)
