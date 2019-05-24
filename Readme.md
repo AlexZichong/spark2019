@@ -1,13 +1,18 @@
 # Spark Conference 2019
+
+# Windows Setup
+1. Download and Install node.js if you dont have it: https://nodejs.org/en/download/
+2. Download https://s3-us-west-2.amazonaws.com/sparkdemosite/init-windows-stack.bat
+3. on command line run: init-windows-stack.bat yourccid
+
+# OSX Setup
+1. Download and Install node.js if you dont have it: https://nodejs.org/en/download/
+2. Download https://github.com/ualberta-eclass/spark2019/blob/master/setup/osx.sh
+3. On command line run: bash osx.sh yourccid
+
 # Workshop links (follow along)
 1. AWS console login: https://301842890444.signin.aws.amazon.com/console
 2. Test website: https://s3-us-west-2.amazonaws.com/sparkdemosite/index.html
-3. Download and Install node.js if you dont have it: https://nodejs.org/en/download/
-
-## Windows Setup
-1. Download https://s3-us-west-2.amazonaws.com/sparkdemosite/init-windows-stack.bat
-2. on command line run: init-windows-stack.bat yourccid
-
 
 # Go at your own pace: 
 ## Console Access
