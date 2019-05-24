@@ -69,34 +69,7 @@ resources:
                     },
                     "/*"
                   ]
-                ]
-    # ProxyResource:
-    #   Type: AWS::ApiGateway::Resource
-    #   Properties:
-    #     ParentId:
-    #       Fn::GetAtt:
-    #         - ApiGatewayRestApi # our default Rest API logical ID
-    #         - RootResourceId
-    #     PathPart: public # the endpoint in your API that is set as proxy
-    #     RestApiId:
-    #       Ref: ApiGatewayRestApi
-    # ProxyMethod:
-    #   Type: AWS::ApiGateway::Method
-    #   Properties:
-    #     AuthorizationType: NONE
-    #     ResourceId:
-    #       Ref: ProxyResource
-    #     RestApiId:
-    #       Ref: ApiGatewayRestApi
-    #     HttpMethod: GET # the method of your proxy. Is it GET or POST or ... ?
-    #     MethodResponses:
-    #       - StatusCode: 200
-    #     Integration:
-    #       IntegrationHttpMethod: GET
-    #       Type: HTTP
-    #       Uri: https://serverless-public-uatest.s3.amazonaws.com # the URL you want to set a proxy to
-    #       IntegrationResponses:
-    #         - StatusCode: 200   
+                ] 
     MainApiBasePath:
       Type: AWS::ApiGateway::Resource
       Properties:
