@@ -6,7 +6,7 @@
 
 ## Windows Setup
 1. Download https://s3-us-west-2.amazonaws.com/sparkdemosite/init-windows-stack.bat
-2. on command line run: init-windows-stack.bat <<your ccid>>
+2. on command line run: init-windows-stack.bat yourccid
 
 
 # Go at your own pace: 
