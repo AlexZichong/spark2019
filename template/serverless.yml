@@ -5,7 +5,7 @@
 # uses to deploy your code to your provider of choice
 
 # The `service` block is the name of the service
-service: spark-serverless
+service: spark-template-spark-stack
 
 # The `provider` block defines where your service will be deployed
 provider:
@@ -22,6 +22,14 @@ functions:
           path: hello-world
           method: get
           cors: true
+  tokencallback:
+    handler: handler.tokencallback
+    # The `events` block defines how to trigger the handler.helloWorld code
+    events:
+      - http:
+          path: tokencallback
+          method: get
+          cors: true        
   ltilogin:
     handler: handler.ltilogin
     # The `events` block defines how to trigger the handler.helloWorld code

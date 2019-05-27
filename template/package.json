@@ -1,8 +1,12 @@
 {
-  "name": "serverless-hello-world",
+  "name": "spark-template-spark-stack",
   "description": "",
   "version": "0.1.0",
-  "dependencies": {},
+  "dependencies": {
+    "oauth-signature": "^1.5.0",
+    "querystring": "^0.2.0",
+    "request": "^2.88.0"
+  },
   "devDependencies": {
     "serverless-s3-sync": "^1.8.0"
   }
