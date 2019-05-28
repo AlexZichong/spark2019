@@ -88,6 +88,21 @@ Click Services Drop-down
 5. Last line should read "S3 Sync: Synced."
 6. Refresh the hello-world end point in your browser
 
+## Single Sign-On from eClass
+1. Goto eClass course: https://bit.ly/2VX7hSj
+2. Log in with you ccid if prompted
+3. Enter "spark" for enrolment key
+4. You are now an instructor in a course
+5. on top right of the page click "Turn editting on"
+6. Click "Add an activity or resource"
+7. Click "External Tool" in the popup and Click Add
+8. Enter "yourccid tool sso" for Activity name
+9. Click "Show more..."
+10. For Secure Tool Url enter your api end point for ltilogin (e.g. https://apiid123.execute-api.us-east-1.amazonaws.com/dev/ltilogin)
+11. Enter "testkey" for Consumer key
+12. Enter "testsecret" for Shared secret
+13. Click "Save and display" at the end of the page
+
 
 ## View Cloudwatch logs
 1. Go to "https://us-west-2.console.aws.amazon.com/cloudwatch/home?region=us-west-2#logs:"
