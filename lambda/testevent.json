@@ -1,43 +1,6 @@
 {
-    "body-json": {},
-    "params": {
-        "path": {},
-        "querystring": {},
-        "header": {
-            "accept": "*/*",
-            "accept-encoding": "gzip, deflate, br",
-            "accept-language": "en-US,en;q=0.9",
-            "cache-control": "no-cache",
-            "Host": "j0idqve39c.execute-api.us-west-2.amazonaws.com",
-            "origin": "https://s3-us-west-2.amazonaws.com",
-            "pragma": "no-cache",
-            "referer": "https://s3-us-west-2.amazonaws.com/sparkdemosite/index.html",
-            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36",
-            "X-Amzn-Trace-Id": "Root=1-5ce45fae-a3ad67fc65debdb506fa877e",
-            "X-Forwarded-For": "xxx.xxx.xxx.xxx",
-            "X-Forwarded-Port": "443",
-            "X-Forwarded-Proto": "https"
-        }
-    },
-    "stage-variables": {},
-    "context": {
-        "account-id": "",
-        "api-id": "j0idqve39c",
-        "api-key": "",
-        "authorizer-principal-id": "",
-        "caller": "",
-        "cognito-authentication-provider": "",
-        "cognito-authentication-type": "",
-        "cognito-identity-id": "",
-        "cognito-identity-pool-id": "",
-        "http-method": "GET",
-        "stage": "test",
-        "source-ip": "142.244.5.19",
-        "user": "",
-        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36",
-        "user-arn": "",
-        "request-id": "256e46f0-7c07-11e9-a674-056a5e2257f2",
-        "resource-id": "fgdi4d",
-        "resource-path": "/ccid"
-    }
+    "name": "put your name here",
+    "date": "31/05/2019",
+    "event": "Spark", 
+    "attendance": true
 }
