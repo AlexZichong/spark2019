@@ -80,7 +80,7 @@ Click Services Drop-down
 1. Go to https://s3-us-west-2.amazonaws.com/sparkdemosite/index.html
 2. In text field paste the invoke URL from previous step and click "Send it".
 
-## Make a change to hello-world end point
+## Make a change to hello-world end point via serverless.js
 1. Open helloworld.js in an editor
 2. Comment out body: 'Hello World!',
 3. Uncomment lines below it and save
