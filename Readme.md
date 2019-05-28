@@ -4,11 +4,15 @@
 1. Download and Install node.js if you dont have it: https://nodejs.org/en/download/
 2. Download https://s3-us-west-2.amazonaws.com/sparkdemosite/init-windows-stack.bat
 3. on command line run: init-windows-stack.bat yourccid
+4. Last line should read "S3 Sync: Synced."
+5. Leave this window open for later use
 
 # OSX Setup
 1. Download and Install node.js if you dont have it: https://nodejs.org/en/download/
 2. Download https://s3-us-west-2.amazonaws.com/sparkdemosite/osx.sh
 3. On command line run: bash osx.sh yourccid
+4. Last line should read "S3 Sync: Synced."
+5. Leave this window open for later use
 
 # Workshop links (follow along)
 1. AWS console login: https://301842890444.signin.aws.amazon.com/console
@@ -75,6 +79,15 @@ Click Services Drop-down
 ## Test it out in a webpage
 1. Go to https://s3-us-west-2.amazonaws.com/sparkdemosite/index.html
 2. In text field paste the invoke URL from previous step and click "Send it".
+
+## Make a change to hello-world end point
+1. Open helloworld.js in an editor
+2. Comment out body: 'Hello World!',
+3. Uncomment lines below it and save
+4. run "serverless deploy --aws-profile spark" in the command line where you ran the init script
+5. Last line should read "S3 Sync: Synced."
+6. Refresh the hello world end point
+
 
 ## View Cloudwatch logs
 1. Go to "https://us-west-2.console.aws.amazon.com/cloudwatch/home?region=us-west-2#logs:"
