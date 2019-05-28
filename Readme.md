@@ -42,39 +42,35 @@
 ## Create API Gateway
 Click Services Drop-down
 1. Click API Gateway
-2. Click Create API
-3. Under "Choose the protocol selet REST
-4. Under Create new API, select New API
-5. Settings-> API name: "yourccid"
-6. Settings -> Endpoint Type: "Regional"
-7. Click Create API
-8. Action Menu Dropdown select "Create Resource"
-9. Resource Name: "mylambda"
-10. Click "Create Resource"
-11. Action Menu Dropdown select "Create Method"
-12. Select "GET" and click checkmark
-13. Select "Lambda Function" for Integration type
-14. For "Lambda Function" type spark2019-yourccid
-15. Leave all other settings default
-16. Save
-17. When prompted for "Add Permission to Lambda Function", click "Ok"
-18. Click "Integration Request"
-19. Expand "Mapping Templates"
-20. Select "When there are no templates defined"
-21. Click "Add mapping template"
-22. type "application/json" and click checkmark
-23. Select "Generate template" drop-down and select "Method Request passthrough"
-24. Click Save
-25. Action Menu -> "Enable CORS"
-26. For "Access-Control-Allow-Origin* type: " 'https://s3-us-west-2.amazonaws.com' "
-27. Click "Enable CORS and replace existing CORS headers"
-28. On "Confirm method changes" dialogue Click "Yes, replace existing values"
-29. Action Menu -> "Deploy API"
-30. Select "New Stage" from "Deployment stage" selection box
-31. Stage name: "test"
-32. Click "Deploy"
-33. Under Stages, expand and select "mylambda" and select "GET"
-34. Click Invoke URL
+2. Find your precreated API gateway: dev-[[yourccid]]-spark-stack
+3. Click that API.
+4. Action Menu Dropdown select "Create Resource"
+5. Resource Name: "mylambda"
+6. Click "Create Resource"
+7. Action Menu Dropdown select "Create Method"
+8. Select "GET" and click checkmark
+9. Select "Lambda Function" for Integration type
+10. For "Lambda Function" type spark2019-yourccid
+11. Leave all other settings default
+12. Save
+13. When prompted for "Add Permission to Lambda Function", click "Ok"
+14. Click "Integration Request"
+15. Expand "Mapping Templates"
+16. Select "When there are no templates defined"
+17. Click "Add mapping template"
+18. type "application/json" and click checkmark
+19. Select "Generate template" drop-down and select "Method Request passthrough"
+20. Click Save
+21. Action Menu -> "Enable CORS"
+22. For "Access-Control-Allow-Origin* type: " 'https://s3-us-west-2.amazonaws.com' "
+23. Click "Enable CORS and replace existing CORS headers"
+24. On "Confirm method changes" dialogue Click "Yes, replace existing values"
+25. Action Menu -> "Deploy API"
+26. Select "New Stage" from "Deployment stage" selection box
+27. Stage name: "test"
+28. Click "Deploy"
+29. Under Stages, expand and select "mylambda" and select "GET"
+30. Click Invoke URL
 
 ## Test it out in a webpage
 1. Go to https://s3-us-west-2.amazonaws.com/sparkdemosite/index.html
