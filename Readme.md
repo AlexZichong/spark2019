@@ -102,6 +102,8 @@ Click Services Drop-down
 11. Enter "testkey" for Consumer key
 12. Enter "testsecret" for Shared secret
 13. Click "Save and display" at the end of the page
+14. If everthing went OK you should see the messge "Hello Your Name. Here is the authenticated data from eClass" plus all the data from eClass
+15. This JSON object contains the course you came from, your role etc. Any user in the course can click this link. The page you see is an iframe with your api page embedded.
 
 
 ## View Cloudwatch logs
