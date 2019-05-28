@@ -15,13 +15,13 @@
 5. Leave this window open for later use
 
 # Workshop links (follow along)
-1. AWS console login: https://301842890444.signin.aws.amazon.com/console
+1. AWS console login: https://spark19.signin.aws.amazon.com/console
 2. Test website: https://s3-us-west-2.amazonaws.com/sparkdemosite/index.html
 3. Moodle Course: https://eclass.srv.ualberta.ca/course/view.php?id=52665
 
 # Go at your own pace: 
 ## Console Access
-* Login to https://301842890444.signin.aws.amazon.com/console
+* Login to https://spark19.signin.aws.amazon.com/console
 * See board for credentials
 
 ## Create Lambda function
