@@ -65,16 +65,12 @@ Click Services Drop-down
 18. type "application/json" and click checkmark
 19. Select "Generate template" drop-down and select "Method Request passthrough"
 20. Click Save
-21. Action Menu -> "Enable CORS"
-22. For "Access-Control-Allow-Origin* type: " 'https://s3-us-west-2.amazonaws.com' "
-23. Click "Enable CORS and replace existing CORS headers"
-24. On "Confirm method changes" dialogue Click "Yes, replace existing values"
-25. Action Menu -> "Deploy API"
-26. Select "New Stage" from "Deployment stage" selection box
-27. Stage name: "test"
-28. Click "Deploy"
-29. Under Stages, expand and select "mylambda" and select "GET"
-30. Click Invoke URL
+21. Action Menu -> "Deploy API"
+22. Select "New Stage" from "Deployment stage" selection box
+23. Stage name: "test"
+24. Click "Deploy"
+25. Under Stages, expand and select "mylambda" and select "GET"
+26. Click Invoke URL
 
 ## Test it out in a webpage
 1. Go to [[YourServiceEndpoint]]/public/demo.html
