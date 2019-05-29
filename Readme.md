@@ -7,9 +7,9 @@
 4. Last line should read "S3 Sync: Synced."
 5. Leave this window open for later use
 
-# OSX Setup
+# OSX/Linux Setup
 1. Download and Install node.js if you dont have it: https://nodejs.org/en/download/
-2. Download https://s3-us-west-2.amazonaws.com/sparkdemosite/osx.sh
+2. Download https://s3-us-west-2.amazonaws.com/sparkdemosite/setup.sh
 3. On command line run: bash osx.sh yourccid
 4. Last line should read "S3 Sync: Synced."
 5. Leave this window open for later use
@@ -77,7 +77,7 @@ Click Services Drop-down
 30. Click Invoke URL
 
 ## Test it out in a webpage
-1. Go to https://s3-us-west-2.amazonaws.com/sparkdemosite/index.html
+1. Go to [[YourServiceEndpoint]]/public/demo.html
 2. In text field paste the invoke URL from previous step and click "Send it".
 
 ## Make a change to hello-world end point via serverless.js
