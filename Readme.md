@@ -4,14 +4,14 @@
 1. Download and Install node.js if you dont have it: https://nodejs.org/en/download/
 2. Download https://s3-us-west-2.amazonaws.com/sparkdemosite/init-windows-stack.bat
 3. on command line run: init-windows-stack.bat yourccid
-4. Last line should read "S3 Sync: Synced."
+4. Last line should read "ServerlessDeploymentBucketName: ..."
 5. Leave this window open for later use
 
 # OSX/Linux Setup
 1. Download and Install node.js if you dont have it: https://nodejs.org/en/download/
 2. Download https://s3-us-west-2.amazonaws.com/sparkdemosite/setup.sh
 3. On command line run: bash osx.sh yourccid
-4. Last line should read "S3 Sync: Synced."
+4. Last line should read "ServerlessDeploymentBucketName: ..."
 5. Leave this window open for later use
 
 # Workshop links (follow along)
