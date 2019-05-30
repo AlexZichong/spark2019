@@ -66,11 +66,10 @@ Click Services Drop-down
 19. Select "Generate template" drop-down and select "Method Request passthrough"
 20. Click Save
 21. Action Menu -> "Deploy API"
-22. Select "New Stage" from "Deployment stage" selection box
-23. Stage name: "test"
-24. Click "Deploy"
-25. Under Stages, expand and select "mylambda" and select "GET"
-26. Click Invoke URL
+22. Select "dev" from "Deployment stage" selection box
+23. Click "Deploy"
+24. Under Stages, expand and select "mylambda" and select "GET"
+25. Click Invoke URL
 
 ## Test it out in a webpage
 1. Go to [[YourServiceEndpoint]]/public/demo.html
