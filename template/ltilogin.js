@@ -19,7 +19,7 @@ module.exports.ltilogin = (event, context, callback) => {
   if (signature === inboundsignature) {
     console.log('signature is good');
 
-    var response = {
+    let response = {
       statusCode: 200,
       headers: {
         'Set-Cookie': 'elsess=1234',
@@ -30,13 +30,14 @@ module.exports.ltilogin = (event, context, callback) => {
       })
     };
 
-
+    // // This urlscheme will need to be added by us to a white list in eClass Prod. We have left it open for Spark Conference to save time
     // let urlscheme = 'https://' + event.requestContext['domainName'] + '/' + event.requestContext['stage'] + '/tokencallback?moodletoken=';
-    // var response = {
+
+    // let response = {
     //   statusCode: 302,
     //   headers: {
     //     'Set-Cookie': 'elsess=1234',
-    //     Location: 'https://eclass.srv.ualberta.ca/admin/tool/mobile/launch.php?service=moodle_mobile_app&passport=somerandomstringforsecurity&urlscheme=' + urlscheme
+    //     Location: 'https://eclass-future-uat.lmc.ualberta.ca/admin/tool/mobile/launch.php?service=moodle_mobile_app&passport=somerandomstringforsecurity&urlscheme=' + urlscheme
     //   },
     // };
 

@@ -14,7 +14,7 @@ provider:
 
 # The `functions` block defines what code to deploy
 functions:
-  helloWorld:
+  helloworld:
     handler: helloworld.helloworld
     # The `events` block defines how to trigger the handler.helloWorld code
     events:
@@ -24,6 +24,7 @@ functions:
           cors: true
   tokencallback:
     handler: tokencallback.tokencallback
+    timeout: 10
     # The `events` block defines how to trigger the handler.helloWorld code
     events:
       - http:
