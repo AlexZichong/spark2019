@@ -18,6 +18,7 @@
 1. AWS console login: https://spark19.signin.aws.amazon.com/console
 2. Test website: https://s3-us-west-2.amazonaws.com/sparkdemosite/index.html
 3. Moodle Course: https://eclass.srv.ualberta.ca/course/view.php?id=52665
+4. Enrol yourself in a curse as a student: https://eclass-future-uat.lmc.ualberta.ca/course/view.php?id=52560
 
 # Go at your own pace: 
 ## Console Access
