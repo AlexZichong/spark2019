@@ -14,7 +14,7 @@ module.exports.tokencallback = async (event, context, callback) => {
     let rep = await moodleWS(wsform);
 
     //return results as json
-    const response = {
+    let response = {
         statusCode: 200,
         headers: {
             'Access-Control-Allow-Origin': '*', // Required for CORS support to work
