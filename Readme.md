@@ -100,6 +100,21 @@ Click Services Drop-down
 14. If everthing went OK you should see the messge "Hello Your Name. Here is the authenticated data from eClass" plus all the data from eClass
 15. This JSON object contains the course you came from, your role etc. Any user in the course can click this link. The page you see is an iframe with your api page embedded.
 
+## Modify ltilogin.js to get an eClass Token
+
+1. Open ltilogin.js in your fav text editor
+2. Comment out line 22 to 31
+3. Un-comment 33 to 42 and save
+4. Deploy updated function with "serverless deploy function --function ltilogin --aws-profile spark"
+
+## Modify callback.js to your app
+
+1. Open tokencallback.js in your fav text editor
+2. Comment out line 17 to 24
+3. Un-comment 26 to 35 and save
+4. Deploy updated function with "serverless deploy function --function tokencallback --aws-profile spark"
+
+
 
 ## View Cloudwatch logs
 1. Go to "https://us-west-2.console.aws.amazon.com/cloudwatch/home?region=us-west-2#logs:"
