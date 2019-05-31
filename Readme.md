@@ -79,9 +79,8 @@ Click Services Drop-down
 1. Open helloworld.js in an editor
 2. Comment out body: 'Hello World!',
 3. Uncomment lines below it and save
-4. run "serverless deploy --aws-profile spark" in the command line where you ran the init script
-5. Last line should read "S3 Sync: Synced."
-6. Refresh the hello-world end point in your browser
+4. run "serverless deploy function --function helloworld --aws-profile spark" in the command line where you ran the init script
+5. Refresh the hello-world end point in your browser
 
 ## Single Sign-On from eClass
 1. Goto eClass course: https://bit.ly/2VX7hSj
